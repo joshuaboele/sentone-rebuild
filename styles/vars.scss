@@ -1,0 +1,27 @@
+$color-branding-1st: #fff;
+$color-branding-yellow: #F1B922;
+$color-branding-black: #000;
+
+$gutter:			15px;
+$gutter_half:		$gutter / 2;
+$color_primary:	    #00c255;
+$color_white:		#FFF;
+$color_gray:		#808080;
+$color_bg:			#f0f0f0;
+
+
+
+
+// Mixins
+
+
+@mixin font-heading() {
+	font-family: 'Roboto', sans-serif;
+}
+
+@mixin transition($property, $duration, $timing) {
+	-webkit-transition: $property $duration $timing;
+	-moz-transition: $property $duration $timing;
+	-o-transition: $property $duration $timing;
+	transition: $property $duration $timing;
+}
