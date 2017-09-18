@@ -14,25 +14,28 @@ export default class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet" />
           <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
         </Head>
         <body>
           <header>
             <ul className="nav-desktop">
-              <li>
-                <a href="/">Home</a>
+              <li className="nav-home">
+                <a className="nav-home" href="/index">
+                  Home
+                </a>
               </li>
               <li>
                 <a href="/about/">About</a>
               </li>
               <li>
-                <a href="/work/">Work</a>
+                <a href="/projecten">Projecten</a>
               </li>
               <li>
-                <a href="/clients/">Clients</a>
+                <a href="/diensten">Diensten</a>
               </li>
               <li>
-                <a href="/contact/">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
             <div className="nav-mobile">

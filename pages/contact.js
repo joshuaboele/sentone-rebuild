@@ -29,7 +29,7 @@ export default () =>
       </div>
     </div>
     <div className="contact-form">
-      <span>Contactform</span>
+      <span>Contactformulier</span>
       <form id="submitform">
         <p>
           <label htmlFor="name">

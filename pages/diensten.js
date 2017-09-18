@@ -8,7 +8,7 @@ export default () =>
     <div className="container">
       <div className="header">
         <h1>Diensten</h1>
-        <p>Hieronder zijn onze diensten uitgelegd.</p>
+        <p className="diensten-desc">Hieronder zijn onze diensten uitgelegd.</p>
       </div>
       <div className="item">
         <input type="checkbox" id="box-1" />
@@ -28,9 +28,9 @@ export default () =>
         <div>
           <h3>Grondstromenlogistiek is de sleutel</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quo, culpa enim ab esse labore
-            recusandae quis sit molestiae reiciendis praesentium alias accusamus in voluptas atque, iure mollitia neque.
-            Veritatis.
+            Naast ontgraven en transport regelt Sent One ook de ontwikkeling van geluidwallen, parken, golfbanen en
+            aanvullingen (zoals: bodemverbetering of natuurontwikkeling) inclusief alle benodigde vergunningen en
+            meldingen.
           </p>
         </div>
       </div>
