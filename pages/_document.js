@@ -26,9 +26,6 @@ export default class MyDocument extends Document {
                 </a>
               </li>
               <li>
-                <a href="/about/">About</a>
-              </li>
-              <li>
                 <a href="/projecten">Projecten</a>
               </li>
               <li>
@@ -36,6 +33,11 @@ export default class MyDocument extends Document {
               </li>
               <li>
                 <a href="/contact">Contact</a>
+              </li>
+              <li>
+                <a href="static/imgs/Voorwaarden.pdf" target="_blank">
+                  Algemene Voorwaarden
+                </a>{' '}
               </li>
             </ul>
             <div className="nav-mobile">
@@ -46,7 +48,6 @@ export default class MyDocument extends Document {
                 <span />
                 <span />
               </label>
-
               <h1 className="nav-position">MENU</h1>
 
               <nav>
@@ -67,18 +68,13 @@ export default class MyDocument extends Document {
                     </a>
                   </li>
                   <li>
-                    <a href="/about" data-active={path === '/about'}>
-                      Over Ons
-                    </a>
+                    <a href="static/imgs/Voorwaarden.pdf" target="_blank">
+                      Voorwaarden
+                    </a>{' '}
                   </li>
                   <li>
                     <a href="/" data-active={path === '/'}>
                       Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/referenties" data-active={path === '/referenties'}>
-                      Referenties
                     </a>
                   </li>
                 </ul>

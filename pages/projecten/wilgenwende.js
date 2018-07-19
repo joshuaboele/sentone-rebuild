@@ -6,32 +6,27 @@ export default () =>
   <div>
     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     <div className="project-wrapper">
-      <img className="project-img" src="#" />
+      <div className="project-img" />
       <h6 className="project-header">Wilgenwende.</h6>
       <div className="project-description">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hi curatione adhibita levantur in dies, valet alter
-          plus cotidie, alter videt. Efficiens dici potest. Quasi ego id curem, quid ille aiat aut neget. Beatus autem.
+          Een Grootschalige Bodemtoepassing (GBT) aan de N3 te Dordrecht waar grond en baggerspecie tot en met klasse
+          Industrie (Besluit Bodemkwaliteit) onder toezicht van de Omgevingsdienst Zuid Holland Zuid nuttig wordt
+          hergebruikt tot een geluidswal tussen de nieuwe woonwijk “Wilgenwende” en de A16 en spoorlijn
+          (Rotterdam-Antwerpen).
           <br />
           <br />
-          Esse in maximarum rerum timore nemo potest. Si id dicis, vicimus. Semper enim ita adsumit aliquid, ut ea, quae
-          prima dederit, non deserat. Quod si ita sit, cur opera philosophiae sit danda nescio. Quo igitur, inquit.
+          Een strook van 850 bij 100 meter wordt omgevormd tot een samenspel van 7 losstaande piramides met elk een
+          eigen beplantingsplan en functie (fiets- en wandelpaden, speelvelden etc.) voor de bewoners van de nieuwe
+          woonwijk.
           <br />
           <br />
-          modo? Sic enim censent, oportunitatis esse beate vivere. An hoc usque quaque, aliter in vita? Dolor ergo, id
-          est summum malum, metuetur semper, etiamsi non aderit; Nummus in Croesi divitiis obscuratur, pars est tamen
-          divitiarum. Quae diligentissime contra Aristonem dicuntur a Chryippo. videntur. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Hi curatione adhibita levantur in dies, valet alter plus cotidie, alter videt.
-          Efficiens dici potest. Quasi ego id curem, quid ille aiat aut neget. Beatus autem.
+          De aanleg van de geluidswal is gestart in 2010 en zal naar huidige verwachting afgerond worden medio 2019.
           <br />
           <br />
-          Esse in maximarum rerum timore nemo potest. Si id dicis, vicimus. Semper enim ita adsumit aliquid, ut ea, quae
-          prima dederit, non deserat. Quod si ita sit, cur opera philosophiae sit danda nescio. Quo igitur, inquit.
           <br />
           <br />
-          modo? Sic enim censent, oportunitatis esse beate vivere. An hoc usque quaque, aliter in vita? Dolor ergo, id
-          est summum malum, metuetur semper, etiamsi non aderit; Nummus in Croesi divitiis obscuratur, pars est tamen
-          divitiarum. Quae diligentissime contra Aristonem dicuntur a Chryippo. videntur.{' '}
+          .{' '}
         </p>
       </div>
     </div>

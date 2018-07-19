@@ -14,7 +14,7 @@ export default () =>
       </div>
       <div className="spijk">
         <p className="project-name"> Spijk</p>
-        <a href="#" className="case-button">
+        <a href="/projecten/spijk" className="case-button">
           Bekijk Project
         </a>
       </div>

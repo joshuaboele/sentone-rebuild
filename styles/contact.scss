@@ -11,8 +11,8 @@ h1 {
 
 .contact-slogan {
   margin: 0 auto;
-  margin-top: 50px;
   margin-left: 20px;
+  padding-top: 50px;
 
   h1 {
     margin: 0;
@@ -34,11 +34,16 @@ h1 {
 }
 
 .contact-info {
-  margin-top: 60px;
-  margin-left: 20px;
+  margin-top: 40px;
+  margin-left: 30px;
 
   h3:nth-child(2n) {
     padding-top: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
   }
 }
 
@@ -65,12 +70,15 @@ h1 {
     vertical-align: middle;
   }
 }
-
+ul.nav-desktop {
+  margin-top: -50px;
+}
 .contact-form {
   text-align: center;
   margin: 50px auto 0;
   width: 80%;
   height: 800px;
+  max-width: 600px;
 
   span {
     font-size: 20px;
@@ -125,14 +133,33 @@ h1 {
 }
 
 @media screen and (min-width: 960px) {
+  .contact-info {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-content {
+    padding: 0 60px;
+    img {
+      width: 26px;
+      height: 26px;
+    }
+  }
+
   .contact {
     margin: 0 auto;
+  }
+  .contact-slogan {
+    margin-top: 50px;
+  }
+  .contact-slogan h1 {
+    text-align: center;
   }
   .contact-form span {
     font-size: 28px;
   }
   .contact-slogan h1:nth-child(2n) {
     width: 425px;
+    margin: 0 auto;
   }
   .contact-form input,
   .contact-form select {

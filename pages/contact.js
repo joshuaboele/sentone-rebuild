@@ -11,21 +11,24 @@ export default () =>
         <h1>Doorgaans nemen wij binnen een dag contact met u op</h1>
       </div>
       <div className="contact-info">
-        <h3>Theo Witjes</h3>
-        <p>
-          <img src="/static/imgs/phone.svg" /> 06 52 57 08 63
-        </p>
-        <p>
-          <img src="/static/imgs/mail.svg" /> witjes@sentone.nl
-        </p>
-
-        <h3>Johan Groeneweg</h3>
-        <p>
-          <img src="/static/imgs/phone.svg" /> 06 52 57 08 63
-        </p>
-        <p>
-          <img src="/static/imgs/mail.svg" /> groeneweg@sentone.nl
-        </p>
+        <div className="contact-content">
+          <h3>Theo Witjes</h3>
+          <p>
+            <img src="/static/imgs/phone.svg" /> <a href="tel:0652570863">+31 (0)6 5250 2622</a>
+          </p>
+          <p>
+            <img src="/static/imgs/mail.svg" /> <a href="mailto:Witjes@sentone.nl"> witjes@sentone.nl </a>
+          </p>
+        </div>
+        <div className="contact-content">
+          <h3>Johan Groeneweg</h3>
+          <p>
+            <img src="/static/imgs/phone.svg" /> <a href="tel:0652570863">+31 (0)6 5433 0952</a>
+          </p>
+          <p>
+            <img src="/static/imgs/mail.svg" /> <a href="mailto:groeneweg@sentone.nl"> groeneweg@sentone.nl </a>
+          </p>
+        </div>
       </div>
     </div>
     <div className="contact-form">
@@ -34,25 +37,25 @@ export default () =>
         <p>
           <label htmlFor="name">
             Naam
-            <span className="asterisk">*</span>
+            <span className="asterisk"> *</span>
           </label>
-          <input type="text" className="" name="Name" placeholder="Joshua Boele" />
+          <input type="text" className="" name="Name" placeholder=" Naam" />
         </p>
 
         <p>
           <label htmlFor="name">
             Email
-            <span className="asterisk">*</span>
+            <span className="asterisk"> *</span>
           </label>
-          <input type="text" className="" name="Email" placeholder="Josboele@gmail.com" />
+          <input type="text" className="" name="Email" placeholder=" E-mail" />
         </p>
 
         <p>
           <label htmlFor="name">
             Telefoonnummer
-            <span className="asterisk">*</span>
+            <span className="asterisk"> *</span>
           </label>
-          <input type="text" className="" name="Phone" placeholder=" 06 52 57 08 63" />
+          <input type="text" className="" name="Phone" placeholder="Telefoonnummer" />
         </p>
 
         <p>

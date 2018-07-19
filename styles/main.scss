@@ -4,7 +4,7 @@
 
 body {
   background: linear-gradient(rgba(40, 29, 13, 0.45), rgba(40, 29, 13, 0.45)),
-    url('../imgs/nature-sky-forest-fog.jpg') no-repeat center center fixed;
+    url('static/imgs/nature-sky-forest.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -129,19 +129,15 @@ body {
   text-align: center;
 
   img {
-    margin-top: 50px;
-    width: 35%;
-    height: 40px;
-    margin: 0 auto;
-    display: block;
-    padding-top: 0px;
+    width: 40%;
+    height: 80px;
   }
 
   p {
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
     color: #fff;
     display: inline-block;
@@ -152,8 +148,8 @@ body {
 
   h2,
   span {
-    padding-top: 4px;
-    font-size: 13px;
+    padding-top: 14px;
+    font-size: 18px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
@@ -169,7 +165,7 @@ body {
     display: inline-block;
     font-family: 'Noto Sans';
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     background-color: $color-branding-yellow;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -199,10 +195,6 @@ body {
     text-align: center;
     font-family: 'Roboto';
   }
-
-  a[data-active="true"] {
-    background-color: purple;
-  }
 }
 
 .nav-mobile h1 {
@@ -221,6 +213,8 @@ body {
 
 ul.nav-desktop {
   list-style-type: none;
+  position: fixed;
+  width: 100%;
 }
 
 // Contactform
@@ -241,19 +235,28 @@ ul.nav-desktop {
   * {
     box-sizing: border-box;
   }
+  .logo {
+    img {
+      width: 15%;
+      height: 80px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
   .video-background iframe,
   .video-foreground {
+    border: 0;
     display: block;
     position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    height: auto;
     pointer-events: none;
   }
   .nav-desktop a {
     display: inline-block;
-    padding: 15px 20px;
+    padding: 15.5px 20px;
     text-decoration: none;
     color: $color-branding-black;
     font-size: 16px;
